@@ -9,30 +9,10 @@ const Card = ({
     <div className="cardContainer">
       <p className="question">{question}</p>
       <div className="buttonContainer">
-        <Button
-          option={option1}
-          className={questionId}
-          question={questionId}
-          answer={answer}
-        />
-        <Button
-          option={option2}
-          className={questionId}
-          question={questionId}
-          answer={answer}
-        />
-        <Button
-          option={option3}
-          className={questionId}
-          question={questionId}
-          answer={answer}
-        />
-        <Button
-          option={option4}
-          className={questionId}
-          question={questionId}
-          answer={answer}
-        />
+        <Button option={option1} question={questionId} answer={answer} />
+        <Button option={option2} question={questionId} answer={answer} />
+        <Button option={option3} question={questionId} answer={answer} />
+        <Button option={option4} question={questionId} answer={answer} />
       </div>
     </div>
   );
