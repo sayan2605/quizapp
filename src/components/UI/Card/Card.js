@@ -7,7 +7,9 @@ const Card = ({
 }) => {
   return (
     <div className="cardContainer">
-      <p className="question">{question}</p>
+      <p className="question" id={"qu" + questionId}>
+        {question}
+      </p>
       <div className="buttonContainer">
         <Button option={option1} question={questionId} answer={answer} />
         <Button option={option2} question={questionId} answer={answer} />

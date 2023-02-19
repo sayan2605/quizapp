@@ -45,6 +45,28 @@
   text-align: center;
 }
 
+.submitButton {
+  margin: 1rem;
+  background-color: #00a010;
+  color: #ffffff;
+  border: 2px solid black;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 12px;
+  text-align: center;
+}
+
+.quizResult {
+  margin: 1rem;
+  background-color: #ffba93;
+  color: black;
+  border: none;
+  cursor: pointer;
+  width: 570px;
+  padding: 12px;
+  text-align: center;
+}
+
 .noShow {
   display: none;
 }
